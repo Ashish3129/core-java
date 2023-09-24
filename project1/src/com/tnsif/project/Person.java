@@ -4,11 +4,10 @@ public class Person {
 	private String name;
 	private int income;
 	private int tax;
-	//getters and setters are use to protect the data
-	public String getName() {//used to read the data
+	public String getName() {
 		return name;
 	}
-	public void setName(String name) {//use to print the data
+	public void setName(String name) {
 		this.name = name;
 	}
 	public int getIncome() {
@@ -23,11 +22,9 @@ public class Person {
 	public void setTax(int tax) {
 		this.tax = tax;
 	}
-	//help you to print object in string format
 	@Override
 	public String toString() {
 		return "Person [name=" + name + ", income=" + income + ", tax=" + tax + "]";
 	}
+	//getters and setters are use to protect the data
 	
-
-}
