@@ -32,10 +32,11 @@ public class Student extends Citizen {
 	public void setCollegename(String collegename) {
 		this.collegename = collegename;
 	}
-	//@override
-	@Override
-	public String toString() {
-		return "Student [rollno=" + rollno + ", collegename=" + collegename + "]";
-	}
-	
 }
+	//@override
+	//@Override
+	/*public String toString() {
+		return "Student [rollno=" + rollno + ", collegename=" + collegename + "]";
+
+	
+}*/

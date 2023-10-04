@@ -26,5 +26,6 @@ public class Person {
 	public String toString() {
 		return "Person [name=" + name + ", income=" + income + ", tax=" + tax + "]";
 	}
+}
 	//getters and setters are use to protect the data
 	
