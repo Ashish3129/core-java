@@ -4,7 +4,7 @@ package com.tns.finalpg;
 
 public class FinalDemo {
 	int a=20;
-	void display() {
+	void display() {		
 		System.out.println(" the value of a is"+a);
 	}
 	
