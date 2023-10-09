@@ -5,7 +5,7 @@ public class Demo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-Student s=new Student(1,"adi");
+Student s=new Student(1,"Ashish");
 if (s instanceof Regestarable)
 	System.out.println("student registered");
 else
